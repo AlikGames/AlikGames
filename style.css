@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Burbank Big Cd Bk';
+    src: url('BurbankBigCondensed-Black.woff2') format('woff2'),
+    url('BurbankBigCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.t{font-family:"Burbank Big Cd Bk";font-size:40px;text-transform:none;color:#F32951}
