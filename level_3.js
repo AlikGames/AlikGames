@@ -56,11 +56,10 @@ var GameScene3 = new Phaser.Class({
         this.load.spritesheet('dude', 'character/dude1.png', {frameWidth: 32, frameHeight: 48});
         this.load.spritesheet('fullscreen', 'fullscreen.png', {frameWidth: 64, frameHeight: 64});
         this.load.audio('musicL3', ['musicL3.mp3', 'musicL3.mp3']);
-        this.load.audio('r3', ['r3.mp3', 'r3.mp3']);
-        this.load.audio('v', ['v.mp3', 'v.mp3']);
-        this.load.audio('collectCoin', ['collectCoin.mp3', 'collectCoin.mp3']);
-        this.load.audio('bombEx', ['bombEx.mp3', 'bombEx.mp3']);
-        this.load.audio('hahaha', ['hahaha.mp3', 'hahaha.mp3']);
+        this.load.audio('r3', ['sounds/r3.mp3']);
+        this.load.audio('collectCoin', ['sounds/collectCoin.mp3']);
+        this.load.audio('bombEx', ['sounds/bombEx.mp3']);
+        this.load.audio('hahaha', ['sounds/hahaha.mp3']);
     },
 
     putHearts: function () {

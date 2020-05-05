@@ -32,9 +32,8 @@ var GameScene = new Phaser.Class({
         this.load.spritesheet('dude', 'character/dude1.png', {frameWidth: 32, frameHeight: 48});
         this.load.spritesheet('fullscreen', 'fullscreen.png', {frameWidth: 64, frameHeight: 64});
         this.load.audio('mks', ['mks.mp3', 'mks.mp3']);
-        this.load.audio('r1', ['r1.mp3', 'r1.mp3']);
-        this.load.audio('v', ['v.mp3', 'v.mp3']);
-        this.load.audio('collectCoin', ['collectCoin.mp3', 'collectCoin.mp3']);
+        this.load.audio('r1', ['sounds/r1.mp3']);
+        this.load.audio('collectCoin', ['sounds/collectCoin.mp3']);
     },
 
     putHearts: function () {

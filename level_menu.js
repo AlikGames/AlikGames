@@ -23,7 +23,7 @@ var GameScene0 = new Phaser.Class({
         this.load.image('startGame', 'startGame.png');
         this.load.image('gameName', 'gameName.png');
         this.load.image('fishStick', 'fishStick.png');
-        this.load.audio('bgMusic', ['bgMusic.mp3', 'bgMusic.mp3']);
+        this.load.audio('bgMusic', ['music/bgMusic.mp3']);
 
     },
 
